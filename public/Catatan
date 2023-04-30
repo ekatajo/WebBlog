@@ -1,0 +1,28 @@
+Middleware = Sebuah mekanisme untuk memudahkan kita untuk melakukan inspeksi dan filtering HTTP Request.
+             Untuk Mencegcek apakah User sudah terAutentikasi atau Belum.
+
+Service Provider, Provider = Untuk mengubah niali default pada Middleware
+
+Authencticate, Middleware = untuk mengarahkan user yang belum terAutentikasi.
+
+Resource Controller = Untuk melakukan CRUD pada Aplikasi 
+    - php artisan make:Controller Bismillah --Resource --model=
+
+Route (/create) = Untuk menampilkan tambah data (default)
+
+Whild Card (*) = Apapun yang ada setelah Post (dasboard/post) akan membuat aktif  
+
+Strip Tags = Untuk Menghilangkan semua tag HTML 
+
+Enctype = Agar form dapat menangani FIle
+
+Folder Storage = Untuk menyimpan File image / Upload
+
+FIlesystems = Untuk mengatur penyimpanan File Image / Upload
+
+Symbolick link = Tanda Panah, Menunjukan bahwa itu bukan tempat aslinya.
+
+membuat Middleware sendiri php artsian make:middleware
+untuk mendaftarkan middlewar sendiri di kernel
+
+Autorisasi (Gates) = @can
